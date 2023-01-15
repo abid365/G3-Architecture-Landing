@@ -158,3 +158,105 @@ nav{
     font-size: 20px;
     font-weight: 400;
 }
+
+/* duo css */
+
+.duo{
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    margin: 130px 240px;
+}
+
+.duo-txt h1{
+    width: 468px;
+    font-size: 45px;
+    font-weight: bolder;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.duo-txt p{
+    width: 586px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.duo-txt-info{
+    width: 586px;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(255, 241, 250, 0.1), 0 6px 20px 0 rgba(107, 107, 107, 0.1);
+
+}
+
+.duo-img{
+    width: 800px;
+    height: 1059px;
+    border-radius: 8px;
+}
+
+.duo-img img{
+    width: 708px;
+    height: 982px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin: auto auto;
+}
+
+/* Some fact section css  */
+
+.fact{
+    margin: 150px 240px;
+}
+
+
+.fact-txt > h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fact-txt > p {
+    width: 542px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fact-boxes{
+    display: flex;
+    gap: 124.17px;
+    margin-top: 100px;
+}
+
+.outer-box{
+    width: 241.83px;
+    height: 241.83px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    transition: box-shadow .3s;
+}
+
+.outer-box:hover{
+    box-shadow: 10px 10px #333;
+}
+
+.inner-box{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    /* justify-content: center; */
+    align-items: center;
+    width: 169px;
+    height: 136.22px;
+    margin: 45px 35px 59px 35px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+/* .inner-box h1{
+    font-size: 45px;
+
+} */
