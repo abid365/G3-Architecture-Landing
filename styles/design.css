@@ -60,7 +60,7 @@ nav{
 .banner-img{
     width: 1440px;
     height: 700px;
-    margin: 50px auto;
+    margin: 85px auto 85px auto;
 }
 
 @media screen and (max-width: 576px){
@@ -122,4 +122,39 @@ nav{
         display: none;
     }
     
+}
+
+/* main section css  */
+
+.quad{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 76px;
+    margin: 85px 301px;
+}
+
+.quad-images{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: auto auto;
+    gap: 24px;
+    
+}
+
+.quad-img{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.quad-txt > h1{
+        width: 468px;
+        font-size: 45px;
+        font-weight: 500;
+}
+
+.quad-txt > p{
+    width: 537px;
+    font-size: 20px;
+    font-weight: 400;
 }
